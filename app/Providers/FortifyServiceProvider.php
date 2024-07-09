@@ -33,8 +33,8 @@ class FortifyServiceProvider extends ServiceProvider
     {
 
         Fortify::loginView(function () {
-            //return view('auth.login');
-            return redirect()->route('voyager.login');
+            return view('auth.login');
+           // return redirect()->route('voyager.login');
         });
         /*/
         Fortify::authenticateUsing(function (Request $request) {

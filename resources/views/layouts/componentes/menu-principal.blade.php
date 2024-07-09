@@ -16,9 +16,9 @@
 
                 <!-- Authentication Links -->
                 @guest
-                    @if (Route::has('voyager.login'))
+                    @if (Route::has('login'))
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('voyager.login') }}">{{ __('Login') }}</a>
+                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                         </li>
                     @endif
 

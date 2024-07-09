@@ -1,17 +1,25 @@
 @extends('layouts.app')
 
-@section('conteudo')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SisFIM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+</head>
 
-                <div class="card-body">
+@section('conteudo')
+<div class="container-fluid bg-primary bg-opacity-25 text-black">
+    <div class="row align-items-start justify-content-center mx-auto">
+        <div class="text-center col-12 col-md-6 p-1">
+            <div class="card">
+                <h1 class="display-3 bg-primary bg-opacity-25">° SisFIM °</h1>
+                <div class="card-body bg-primary bg-opacity-25">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
-                        <div class="row mb-3">
+                        <div class="row py-2 ">
                             <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Email Address') }}</label>
 
                             <div class="col-md-6">
