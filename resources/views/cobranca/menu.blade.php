@@ -15,41 +15,35 @@
                 <h1 class="display-3">° Cobranças °</h1>
             </div>
             <div class="text-center col-12">
-                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-danger-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
-                    <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
-                            <i class="bi bi-calendar2-fill fs-1 text-black"></i> Busca
-                        </a>
-                    </h3>
-                </div>
                 <div class="col-12 col-md-6 my-4 d-block mx-auto bg-warning-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
-                            <i class="bi bi-calendar2-event-fill fs-1 text-black"></i> Diária
+                        <a href="{{route('cobranca.buscar')}}" class="link-dark link-underline-opacity-0">
+                            <i class="bi bi-calendar2-fill fs-1 text-black"></i> Busca
                         </a>
                     </h3>
                 </div>
                 <div class="col-12 col-md-6 my-4 d-block mx-auto bg-success-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
-                            <i class="bi bi-calendar2-week-fill fs-1 text-black"></i> Mensal
+                        <a href="{{route('cobranca.diaria')}}" class="link-dark link-underline-opacity-0">
+                            <i class="bi bi-calendar2-event-fill fs-1 text-black"></i> Diária
+                        </a>
+                    </h3>
+                </div>
+                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-danger-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
+                    <h3>
+                        <a href="{{route('cobranca.atrasados')}}" class="link-dark link-underline-opacity-0">
+                            <i class="bi bi-calendar2-x-fill fs-1 text-black"></i> Atrasados
                         </a>
                     </h3>
                 </div>
                 <div class="col-12 col-md-6 my-4 d-block mx-auto bg-info-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
-                            <i class="bi bi-calendar2-x-fill fs-1 text-black"></i> Atrasados
+                        <a href="{{route('cobranca.mensal')}}" class="link-dark link-underline-opacity-0">
+                            <i class="bi bi-calendar2-week-fill fs-1 text-black"></i> Relatório Mensal
                         </a>
                     </h3>
                 </div>
-                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-secondary-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
-                    <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
-                            <i class="bi bi-calendar2-check-fill fs-1 text-black"></i> Relatórios
-                        </a>
-                    </h3>
-                </div>
+
             </div>
             <div class="text-center col-12 p-1 mb-5">
                 <h6>Criado por Germano Heckler</h6>

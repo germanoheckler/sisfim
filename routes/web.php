@@ -37,6 +37,16 @@ Route::get('/sisfim', function () {
 
 Route::get('cobrancas', 'App\Http\Controllers\CobrancaController@menu')->name('cobranca.menu');
 
+Route::get('cobrancas/buscar', 'App\Http\Controllers\CobrancaController@buscar')->name('cobranca.buscar');
+
+Route::get('cobrancas/diaria', 'App\Http\Controllers\CobrancaController@diaria')->name('cobranca.diaria');
+
+Route::get('cobrancas/mensal', 'App\Http\Controllers\CobrancaController@mensal')->name('cobranca.mensal');
+
+Route::get('cobrancas/recebimento', 'App\Http\Controllers\CobrancaController@recebimento')->name('cobranca.recebimento');
+
+Route::get('cobrancas/atrasados', 'App\Http\Controllers\CobrancaController@atrasados')->name('cobranca.atrasados');
+
 
 Route::get('clientes', 'App\Http\Controllers\ClienteController@menu')->name('cliente.menu');
 
