@@ -100,6 +100,8 @@ Route::get('vendas', 'App\Http\Controllers\VendaController@menu')->name('venda.m
 
 Route::get('vendas/novo', 'App\Http\Controllers\VendaController@criar')->name('venda.criar');
 
+Route::get('vendas/menu', 'App\Http\Controllers\VendaController@menu')->name('venda.menu');
+
 Route::get('vendas/{id}', 'App\Http\Controllers\VendaController@mostrar');
 
 Route::get('vendas/{id}/editar', 'App\Http\Controllers\VendaController@editar')->name('venda.editar');

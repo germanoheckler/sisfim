@@ -25,6 +25,12 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <tr>
+                        <th scope="row" class="bg-dark text-white"><i class="bi bi-house"></i></th>
+                        <td class="bg-dark text-white"><b>Estoque Total</b></td>
+                        <td class="bg-dark text-white"><b>10</b></td>
+                        <td class="bg-dark text-white"><b>280,00</b></td>
+                      </tr>
                   <tr>
                     <th scope="row">1</th>
                     <td>Cadeira</td>

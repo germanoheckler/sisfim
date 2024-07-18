@@ -19,13 +19,9 @@
                 <div class="form-group text-center col-12">
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="nome" class="link-dark link-underline-opacity-0">Nome</label></h4>
-                        <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite o nome do produto" required>
+                        <input type="text" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="nome" id="nome" placeholder="Digite o nome do produto" required>
                     </div>
-                    <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
-                        <h4><label for="marca" class="link-dark link-underline-opacity-0">Marca</label></h4>
-                        <input type="text" class="form-control" name="marca" id="marca" placeholder="Digite a marca do produto">
-                    </div>
-                    <input type="submit" value="Buscar Cliente" class="m-2 btn btn-primary">
+                    <input type="submit" value="Buscar Produto" class="m-2 btn btn-primary">
                 </div>
             </form>
             <div class="text-center col-12 p-1 mb-5">

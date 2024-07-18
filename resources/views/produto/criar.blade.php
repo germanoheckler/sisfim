@@ -19,15 +19,15 @@
                 <div class="form-group text-center col-12">
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="nome" class="link-dark link-underline-opacity-0">Nome</label></h4>
-                        <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite o nome do produto" required>
+                        <input type="text" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="nome" id="nome" placeholder="Digite o nome do produto" required>
                     </div>
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="descricao" class="link-dark link-underline-opacity-0">Descrição</label></h4>
-                        <input type="text" class="form-control" name="descricao" id="descricao" placeholder="Digite a descrição do produto">
+                        <input type="text" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="descricao" id="descricao" placeholder="Digite a descrição do produto">
                     </div>
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="foto" class="link-dark link-underline-opacity-0">Foto</label></h4>
-                        <input type="text" class="form-control" name="foto" id="foto" placeholder="Incluir foto do produto">
+                        <input type="text" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="foto" id="foto" placeholder="Incluir foto do produto">
                     </div>
                     <input type="submit" value="Cadastrar Novo Produto" class="m-2 btn btn-primary">
                 </div>
@@ -37,19 +37,15 @@
                     <div class="form-group text-center col-12">
                         <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                             <h4><label for="quantidade" class="link-dark link-underline-opacity-0">Quantidade</label></h4>
-                            <input type="text" class="form-control" name="quantidade" id="quantidade" placeholder="Digite a quantidade do produto" required>
+                            <input type="text" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="quantidade" id="quantidade" placeholder="Digite a quantidade do produto" required>
                         </div>
                         <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                             <h4><label for="precodecompra" class="link-dark link-underline-opacity-0">Preço de Compra</label></h4>
-                            <input type="text" class="form-control" name="precodecompra" id="precodevenda" placeholder="Digite o preço de compra do produto">
+                            <input type="text" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="precodecompra" id="precodevenda" placeholder="Digite o preço de compra do produto">
                         </div>
                         <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                             <h4><label for="precodevenda" class="link-dark link-underline-opacity-0">Preço de Venda</label></h4>
-                            <input type="text" class="form-control" name="precodevenda" id="precodevenda" placeholder="Digite o preço de venda do produto">
-                        </div>
-                        <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
-                            <h4><label for="fornecedor" class="link-dark link-underline-opacity-0">Fornecedor</label></h4>
-                            <input type="text" class="form-control" name="fornecedor" id="fornecedor" placeholder="Digite o fornecedor do produto">
+                            <input type="text" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="precodevenda" id="precodevenda" placeholder="Digite o preço de venda do produto">
                         </div>
                         <input type="submit" value="Cadastrar Novo Estoque" class="m-2 btn btn-primary">
                     </div>

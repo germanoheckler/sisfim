@@ -12,10 +12,10 @@
     <div class="container-fluid text-black">
         <div class="row align-items-start justify-content-center mx-auto">
             <div class="text-center col-12 p-1 mt-5">
-                <h1 class="display-3">° Relatórios °<br>Mensais</h1>
+                <h1 class="display-3">° Relatórios °</h1>
             </div>
             <div class="text-center col-12">
-                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-danger-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
+                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-info-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
                         <a href="#" class="link-dark link-underline-opacity-0">
                             <i class="bi bi-calendar2-range fs-1 text-black"></i> Cobranças
@@ -36,7 +36,7 @@
                         </a>
                     </h3>
                 </div>
-                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-info-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
+                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-danger-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
                         <a href="#" class="link-dark link-underline-opacity-0">
                             <i class="bi bi-person-x fs-1 text-black"></i> Inadimplência

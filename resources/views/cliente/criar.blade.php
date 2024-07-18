@@ -19,23 +19,23 @@
                 <div class="form-group text-center col-12">
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="nome" class="link-dark link-underline-opacity-0">Nome</label></h4>
-                        <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite o nome do cliente" required>
+                        <input type="text" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="nome" id="nome" placeholder="Digite o nome do cliente" required>
                     </div>
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="cpf" class="link-dark link-underline-opacity-0">CPF</label></h4>
-                        <input type="number" class="form-control" name="cpf" id="cpf" placeholder="Digite o CPF do cliente">
+                        <input type="number" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="cpf" id="cpf" placeholder="Digite o CPF do cliente">
                     </div>
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="telefone" class="link-dark link-underline-opacity-0">Telefone</label></h4>
-                        <input type="number" class="form-control" name="telefone" id="telefone" placeholder="Digite o telefone do cliente">
+                        <input type="number" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="telefone" id="telefone" placeholder="Digite o telefone do cliente">
                     </div>
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="endereco" class="link-dark link-underline-opacity-0">Endereço</label></h4>
-                        <input type="text" class="form-control" name="endereco" id="endereco" placeholder="Digite o endereço do cliente">
+                        <input type="text" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="endereco" id="endereco" placeholder="Digite o endereço do cliente">
                     </div>
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="cidade" class="link-dark link-underline-opacity-0">Cidade</label></h4>
-                        <select class="form-control" id="cidade">
+                        <select class="col-12 col-md-6 rounded p-1 border-light-subtle" id="cidade">
                             <option value="Jardim" data-cidade="jardim">Jardim</option>
                             <option value="Guia Lopes da Laguna" data-cidade="guialopesdalaguna">Guia Lopes da Laguna</option>
                         </select>
@@ -43,7 +43,7 @@
 
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="bairro" class="link-dark link-underline-opacity-0">Bairro</label></h4>
-                        <select class="form-control" id="bairro">
+                        <select class="col-12 col-md-6 rounded p-1 border-light-subtle" id="bairro">
                             <option>Vila Angélica I</option>
                             <option>Vila Camisão</option>
                         </select>

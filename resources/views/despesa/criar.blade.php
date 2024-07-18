@@ -19,19 +19,19 @@
                 <div class="form-group text-center col-12">
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="nome" class="link-dark link-underline-opacity-0">Nome</label></h4>
-                        <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite o nome da despesa" required>
+                        <input type="text" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="nome" id="nome" placeholder="Digite o nome da despesa" required>
                     </div>
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="descricao" class="link-dark link-underline-opacity-0">Descrição</label></h4>
-                        <input type="text" class="form-control" name="descricao" id="descricao" placeholder="Digite a descrição da despesa">
+                        <input type="text" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="descricao" id="descricao" placeholder="Digite a descrição da despesa">
                     </div>
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="valordadespesa" class="link-dark link-underline-opacity-0">Valor</label></h4>
-                        <input type="number" class="form-control" name="valordadespesa" id="valordadespesa" placeholder="Digite o valor da despesa">
+                        <input type="number" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="valordadespesa" id="valordadespesa" placeholder="Digite o valor da despesa">
                     </div>
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="datadadespesa" class="link-dark link-underline-opacity-0">Data</label></h4>
-                        <input type="date" class="form-control" name="datadadespesa" id="datadadespesa" placeholder="Digite a data da despesa">
+                        <input type="date" class="rounded p-1 border-light-subtle" name="datadadespesa" id="datadadespesa" placeholder="Digite a data da despesa">
                     </div>
                     <input type="submit" value="Cadastrar Novo Cliente" class="m-2 btn btn-primary">
                 </div>

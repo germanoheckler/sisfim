@@ -76,7 +76,7 @@
                                     <th scope="row">Forma de Pgto</th>
                                     <td>
                                         <div class="input-group justify-content-center">
-                                            <select class="custom-select rounded p-1" id="inputGroupSelect04">
+                                            <select class="rounded p-1 border-start-dark custom-select" id="inputGroupSelect04">
                                               <option selected>Escolha</option>
                                               <option value="dinheiro">Dinheiro</option>
                                               <option value="cartao">Cartão</option>
@@ -87,7 +87,7 @@
                                     </td>
                                   </tr>
                                   <tr>
-                                    <th scope="row"><label for="valorrecebido">Valor</label></th>
+                                    <th scope="row"><label for="valorrecebido">Valor Recebido</label></th>
                                     <td>
                                         <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                                             <input type="number" format="currency" precision="2" id="valorrecebido" name="valorrecebido" class="form-control" formControlName="valorrecebido" placeholder="Valor recebido" />
@@ -95,18 +95,21 @@
                                     </td>
                                   </tr>
                                   <tr>
-                                    <th scope="row"><label for="desconto">Desconto</label></th>
+                                    <th scope="row"><label for="desconto">Desconto ou Perda</label></th>
                                     <td>
                                         <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
-                                            <input type="number" format="currency" precision="2" id="desconto" name="desconto" class="form-control" formControlName="desconto" placeholder="Valor do desconto" />
+                                            <input type="number" format="currency" precision="2" id="desconto" name="desconto" class="form-control" formControlName="desconto" placeholder="Valor do desconto ou perda" />
                                         </div>
                                     </td>
                                   </tr>
                                   <tr>
                                     <th scope="row">Parcelas Restantes</th>
                                     <td>
-                                        2ª <input type="date" class="rounded p-1" name="datacobranca" id="datacobranca" placeholder="10/10/2024"> 80,00<br><hr>
-                                        3ª <input type="date" class="rounded p-1" name="datacobranca" id="datacobranca" placeholder="10/10/2024"> 80,00<br>
+                                        <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
+                                            <input type="date" class="rounded p-1 border-light-subtle" name="datacobranca" id="datacobranca">
+                                            <input type="number" format="currency" precision="2" id="valorparcela" name="valorparcela" class="form-control" formControlName="valorparcela" placeholder="Valor da Parcela" />
+                                            <hr>
+                                        </div>
                                     </td>
                                   </tr>
                                   <tr>

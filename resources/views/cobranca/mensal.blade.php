@@ -19,7 +19,7 @@
                     <div class="form-group text-center col-12">
                         <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                             <h4><label for="month" class="link-dark link-underline-opacity-0">Data do Relatório</label></h4>
-                            <input type="month" class="rounded p-1" name="meseano" id="meseano" placeholder="">
+                            <input type="month" class="rounded p-1 border-light-subtle" name="meseano" id="meseano" placeholder="">
                             <input type="submit" value="Buscar" class="ms-2 btn btn-primary">
                         </div>
                         <div class="row align-items-start justify-content-center mx-auto text-center col-12 col-md-6">

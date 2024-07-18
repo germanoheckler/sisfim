@@ -19,19 +19,19 @@
                 <div class="form-group text-center col-12">
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="meseano" class="link-dark link-underline-opacity-0">Mês e Ano</label></h4>
-                        <input type="month" class="form-control" name="meseano" id="meseano" placeholder="">
+                        <input type="month" class="rounded p-1 border-light-subtle" name="meseano" id="meseano" placeholder="">
                     </div>
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="dia" class="link-dark link-underline-opacity-0">Dia</label></h4>
-                        <input type="text" class="form-control" name="dia" id="dia" placeholder="Digite o dia da cobrança">
+                        <input type="text" class="col-12 col-md-6 rounded p-1 border-light-subtle   " name="dia" id="dia" placeholder="Digite o dia da cobrança">
                     </div>
                     <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="nomedocliente" class="link-dark link-underline-opacity-0">Nome do Cliente</label></h4>
-                        <input type="text" class="form-control" name="nomedocliente" id="nomedocliente" placeholder="Digite o nome do cliente">
+                        <input type="text" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="nomedocliente" id="nomedocliente" placeholder="Digite o nome do cliente">
                     </div>
-                    <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
+                    <div class="col-12 col-md-6 my-1 d-block mx-auto m-1">
                         <h4><label for="cpf" class="link-dark link-underline-opacity-0">CPF do Cliente</label></h4>
-                        <input type="number" class="form-control" name="cpf" id="cpf" placeholder="Digite o cpf do cliente">
+                        <input type="number" class="col-12 col-md-6 rounded p-1 border-light-subtle" name="cpf" id="cpf" placeholder="Digite o cpf do cliente">
                     </div>
                     <input type="submit" value="Buscar Cobrança(s)" class="m-2 btn btn-primary">
                 </div>

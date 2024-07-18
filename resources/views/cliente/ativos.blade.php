@@ -17,29 +17,34 @@
             <div class="text-center col-12 col-md-6">
             <table class="table table-striped">
                 <thead class="thead-dark">
-                  <tr>
-                    <th scope="col">Nr</th>
-                    <th scope="col">Nome</th>
-                    <th scope="col">Telefone</th>
+                    <tr>
+                      <th scope="col" class="bg-success-subtle">Nr</th>
+                      <th scope="col" class="bg-success-subtle">Nome</th>
+                      <th scope="col" class="bg-success-subtle"><i class="bi bi-info-circle"></i></th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <th scope="row" class="bg-dark text-white"><b>3</b></th>
+                          <td class="bg-dark text-white"><b><i class="bi bi-arrow-left-circle"></i> Total Ativos</b></td>
+                          <td class="bg-dark text-white"><i class="bi bi-people"></i></td>
+                        </tr>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Marcos Rogerio dos Santos</td>
+                      <td><a href="#"><i class="text-success bi bi-person-circle"></a></i></td>
                     </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>999999</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>222222</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>333333</td>
-                  </tr>
-                </tbody>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>João Ferreira da Silva Neto</td>
+                      <td><a href="#"><i class="text-success bi bi-person-circle"></a></i></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Laudemir Vargas Coimbra</td>
+                      <td><a href="#"><i class="text-success bi bi-person-circle"></a></i></td>
+                    </tr>
+                  </tbody>
               </table>
             </div>
             <div class="text-center col-12 p-1 mb-5">

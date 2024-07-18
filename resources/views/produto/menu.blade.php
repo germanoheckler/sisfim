@@ -15,28 +15,28 @@
                 <h1 class="display-3">° Produtos °</h1>
             </div>
             <div class="text-center col-12">
-                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-danger-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
+                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-info-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
                         <a href="{{route('produto.novo')}}" class="link-dark link-underline-opacity-0">
                             <i class="bi bi-house-add-fill fs-1 text-black"></i> Novo Produto
                         </a>
                     </h3>
                 </div>
-                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-warning-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
+                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-success-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
                         <a href="{{route('produto.novo')}}" class="link-dark link-underline-opacity-0">
                             <i class="bi bi-house-up-fill fs-1 text-black"></i> Novo Estoque
                         </a>
                     </h3>
                 </div>
-                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-success-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
+                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-warning-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
                         <a href="{{route('produto.buscar')}}" class="link-dark link-underline-opacity-0">
                             <i class="bi bi-house-gear-fill fs-1 text-black"></i> Busca
                         </a>
                     </h3>
                 </div>
-                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-info-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
+                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-secondary-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
                         <a href="{{route('produto.estoque')}}" class="link-dark link-underline-opacity-0">
                             <i class="bi bi-house-check-fill fs-1 text-black"></i> Produtos em Estoque

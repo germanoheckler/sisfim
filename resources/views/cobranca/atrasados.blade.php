@@ -18,8 +18,8 @@
                 @csrf
                     <div class="form-group text-center col-12">
                         <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
-                            <h4><label for="data" class="link-dark link-underline-opacity-0">Data da Cobrança</label></h4>
-                            <input type="date" class="rounded p-1" name="meseano" id="meseano" placeholder="">
+                            <h4><label for="data" class="link-dark link-underline-opacity-0">Mês da Cobrança</label></h4>
+                            <input type="month" class="rounded p-1 border-light-subtle" name="meseano" id="meseano" placeholder="">
                             <input type="submit" value="Buscar" class="ms-2 btn btn-primary">
                         </div>
                         <div class="row align-items-start justify-content-center mx-auto text-center col-12 col-md-6">
@@ -28,30 +28,32 @@
                                   <tr>
                                     <th scope="col" class="bg-danger-subtle">Nr</th>
                                     <th scope="col" class="bg-danger-subtle">Nome</th>
-                                    <th scope="col" class="bg-danger-subtle">Telefone</th>
                                     <th scope="col" class="bg-danger-subtle">Parcela(s)</th>
                                     <th scope="col" class="bg-danger-subtle">Ações</th>
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <tr>
+                                        <th scope="row" class="bg-dark text-white"><i class="bi bi-coin"></i></th>
+                                        <td class="bg-dark text-white"><b>Total atrasado</b></td>
+                                        <td class="bg-dark text-white"><b>270,00</b></td>
+                                        <td class="bg-dark text-white"><i class="bi bi-info-circle"></i></td>
+                                      </tr>
                                   <tr>
                                     <th scope="row">1</th>
                                     <td>Alan de Souza Pereira</td>
-                                    <td>67-99999-9999</td>
                                     <td>90,00</td>
                                     <td><a href="{{route('cobranca.recebimento')}}   "><i class="bi bi-check-square-fill text-danger"></i></a></td>
                                   </tr>
                                   <tr>
                                     <th scope="row">2</th>
                                     <td>Carlos Augusto Ferreira de Lima</td>
-                                    <td>67-22222-2222</td>
                                     <td>100,00</td>
                                     <td><a href="{{route('cobranca.recebimento')}}   "><i class="bi bi-check-square-fill text-danger"></i></a></td>
                                   </tr>
                                   <tr>
                                     <th scope="row">3</th>
                                     <td>Diego da Silva Fernandes</td>
-                                    <td>67-33333-3333</td>
                                     <td>80,00</td>
                                     <td><a href="{{route('cobranca.recebimento')}}   "><i class="bi bi-check-square-fill text-danger"></i></a></td>
                                   </tr>

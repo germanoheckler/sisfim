@@ -18,26 +18,31 @@
             <table class="table table-striped">
                 <thead class="thead-dark">
                   <tr>
-                    <th scope="col">Nr</th>
-                    <th scope="col">Nome</th>
-                    <th scope="col">Telefone</th>
+                    <th scope="col" class="bg-dark-subtle">Nr</th>
+                    <th scope="col" class="bg-dark-subtle">Nome</th>
+                    <th scope="col" class="bg-dark-subtle"><i class="bi bi-info-circle"></i></th>
                     </tr>
                 </thead>
                 <tbody>
+                    <tr>
+                        <th scope="row" class="bg-dark text-white"><b>3</b></th>
+                        <td class="bg-dark text-white"><b><i class="bi bi-arrow-left-circle"></i> Total Inativos</b></td>
+                        <td class="bg-dark text-white"><i class="bi bi-people"></i></td>
+                      </tr>
                   <tr>
                     <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>999999</td>
+                    <td>Marcos Rogerio dos Santos</td>
+                    <td><a href="#"><i class="text-primary bi bi-person-circle"></a></i></td>
                   </tr>
                   <tr>
                     <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>222222</td>
+                    <td>João Ferreira da Silva Neto</td>
+                    <td><a href="#"><i class="text-primary bi bi-person-circle"></a></i></td>
                   </tr>
                   <tr>
                     <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>333333</td>
+                    <td>Laudemir Vargas Coimbra</td>
+                    <td><a href="#"><i class="text-primary bi bi-person-circle"></a></i></td>
                   </tr>
                 </tbody>
               </table>

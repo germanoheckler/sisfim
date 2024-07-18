@@ -15,6 +15,11 @@
                 <h1 class="display-3">° Despesas do Mês °</h1>
             </div>
             <div class="text-center col-12 col-md-6">
+                <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
+                    <h4><label for="month" class="link-dark link-underline-opacity-0">Mês das Despesas</label></h4>
+                    <input type="month" class="rounded p-1 border-light-subtle" name="meseano" id="meseano" placeholder="">
+                    <input type="submit" value="Buscar" class="ms-2 btn btn-primary">
+                </div>
             <table class="table table-striped">
                 <thead class="thead-dark">
                   <tr>
@@ -25,6 +30,12 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <tr>
+                        <th scope="row" class="bg-dark text-white"><i class="bi bi-coin"></i></th>
+                        <td class="bg-dark text-white"><b>Total de Despesas</b></td>
+                        <td class="bg-dark text-white"><b>3.977,50</b></td>
+                        <td class="bg-dark text-white"><b>JAN/2024</b></td>
+                      </tr>
                   <tr>
                     <th scope="row">1</th>
                     <td>Cheque</td>
