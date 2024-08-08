@@ -36,6 +36,7 @@ class ClienteController extends Controller
     public function criar(){
         return view('cliente.criar');
     }
+    /*
     public function salvar(Request $request){
         $cliente = new Cliente();
         $cliente->nome = $request->nome;
@@ -46,7 +47,7 @@ class ClienteController extends Controller
         $cliente->bairro = $request->bairro;
         $cliente->save();
 
-        return redirect()->route('cliente.listar');
+        return redirect()->route('cliente.inativos');
     }
     public function atualizar(Request $request, $id){
         $cliente = Cliente::find($id);
@@ -65,4 +66,5 @@ class ClienteController extends Controller
         $cliente->delete();
         return redirect()->route('cliente.listar');
     }
+        */
 }

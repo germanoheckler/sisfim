@@ -17,9 +17,16 @@ class VendaController extends Controller
         $vendas = Venda::all();
         return view('venda.listar')->with('vendas',$vendas);
     }
+    public function novo(){
+        return view('venda.novo');
+    }
     public function menu(){
         return view('venda.menu');
     }
+    public function criar(){
+        return view('venda.criar');
+    }
+    /*
     public function editar($id){
         $venda = Venda::find($id);
         return view('venda.editar')->with('venda', $venda);
@@ -81,4 +88,5 @@ class VendaController extends Controller
         $venda->delete();
         return redirect()->route('venda.listar');
     }
+    */
 }

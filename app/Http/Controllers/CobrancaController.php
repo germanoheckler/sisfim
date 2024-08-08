@@ -13,9 +13,6 @@ class CobrancaController extends Controller
     public function buscar(){
         return view('cobranca.buscar');
     }
-    public function diaria(){
-        return view('cobranca.diaria');
-    }
     public function mensal(){
         return view('cobranca.mensal');
     }

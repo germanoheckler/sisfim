@@ -33,13 +33,11 @@ Route::group(['prefix' => 'admin'], function () {
 
 Route::get('/sisfim', function () {
     return view('index');
-});
+})->name('inicio');
 
 Route::get('cobrancas', 'App\Http\Controllers\CobrancaController@menu')->name('cobranca.menu');
 
 Route::get('cobrancas/buscar', 'App\Http\Controllers\CobrancaController@buscar')->name('cobranca.buscar');
-
-Route::get('cobrancas/diaria', 'App\Http\Controllers\CobrancaController@diaria')->name('cobranca.diaria');
 
 Route::get('cobrancas/mensal', 'App\Http\Controllers\CobrancaController@mensal')->name('cobranca.mensal');
 
@@ -98,7 +96,9 @@ Route::delete('produtos/{id}', 'App\Http\Controllers\ProdutoController@deletar')
 
 Route::get('vendas', 'App\Http\Controllers\VendaController@menu')->name('venda.menu');
 
-Route::get('vendas/novo', 'App\Http\Controllers\VendaController@criar')->name('venda.criar');
+Route::get('vendas/criar', 'App\Http\Controllers\VendaController@criar')->name('venda.novo');
+
+Route::get('vendas/criar', 'App\Http\Controllers\VendaController@criar')->name('venda.criar');
 
 Route::get('vendas/menu', 'App\Http\Controllers\VendaController@menu')->name('venda.menu');
 

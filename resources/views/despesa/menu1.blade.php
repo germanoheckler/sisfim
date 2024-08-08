@@ -24,40 +24,30 @@
     <div class="container-fluid text-black">
         <div class="row align-items-start justify-content-center mx-auto">
             <div class="text-center col-12 p-1 mt-5">
-                <h1 class="display-3">° Clientes Inativos °</h1>
+                <h1 class="display-3">° Despesas °</h1>
             </div>
-            <div class="text-center col-12 col-md-6">
-            <table class="table table-striped">
-                <thead class="thead-dark">
-                  <tr>
-                    <th scope="col" class="bg-dark-subtle">Nr</th>
-                    <th scope="col" class="bg-dark-subtle">Nome</th>
-                    <th scope="col" class="bg-dark-subtle"><i class="bi bi-info-circle"></i></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row" class="bg-dark text-white"><b>3</b></th>
-                        <td class="bg-dark text-white"><b><i class="bi bi-arrow-left-circle"></i> Total Inativos</b></td>
-                        <td class="bg-dark text-white"><i class="bi bi-people"></i></td>
-                      </tr>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Marcos Rogerio dos Santos</td>
-                    <td><a href="#"><i class="text-primary bi bi-person-circle"></a></i></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>João Ferreira da Silva Neto</td>
-                    <td><a href="#"><i class="text-primary bi bi-person-circle"></a></i></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Laudemir Vargas Coimbra</td>
-                    <td><a href="#"><i class="text-primary bi bi-person-circle"></a></i></td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="text-center col-12">
+                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-info-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
+                    <h3>
+                        <a href="{{route('despesa.novo')}}" class="link-dark link-underline-opacity-0">
+                            <i class="bi bi-plus-circle fs-1 text-black"></i> Novo
+                        </a>
+                    </h3>
+                </div>
+                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-warning-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
+                    <h3>
+                        <a href="{{route('despesa.buscar')}}" class="link-dark link-underline-opacity-0">
+                            <i class="bi bi-question-circle fs-1 text-black"></i> Busca
+                        </a>
+                    </h3>
+                </div>
+                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-success-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
+                    <h3>
+                        <a href="{{route('despesa.mensal')}}" class="link-dark link-underline-opacity-0">
+                            <i class="bi bi-filter-circle fs-1 text-black"></i> Lista Mensal
+                        </a>
+                    </h3>
+                </div>
             </div>
             <div class="mt-4">
             </div>

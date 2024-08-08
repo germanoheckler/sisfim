@@ -32,8 +32,10 @@
                     <button type="submit" class="btn btn-primary btn-lg col-2 d-block mx-auto rounded-4 border border-dark-subtle border-3 shadow-lg border-top-0 border-start-0 p-2 col-12 col-md-6">Entrar</button>
                 </div>
             </form>
-            <div class="text-center col-12 p-1">
-                <h6>Criado por Germano Heckler</h6>
+            <div class="mt-4">
+            </div>
+            <div class="text-center col-12 pt-0 fixed-bottom pb-1 bg-white border-top border-bottom border-primary">
+                <h6 class="mt-2 text-black">° SisFIM ° | Criado por Germano Heckler</h6>
             </div>
         </div>
     </div>

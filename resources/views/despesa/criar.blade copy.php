@@ -24,41 +24,30 @@
     <div class="container-fluid text-black">
         <div class="row align-items-start justify-content-center mx-auto">
             <div class="text-center col-12 p-1 mt-5">
-                <h1 class="display-3">° Clientes Inativos °</h1>
+                <h1 class="display-3">° Nova Despesa °</h1>
             </div>
-            <div class="text-center col-12 col-md-6">
-            <table class="table table-striped">
-                <thead class="thead-dark">
-                  <tr>
-                    <th scope="col" class="bg-dark-subtle">Nr</th>
-                    <th scope="col" class="bg-dark-subtle">Nome</th>
-                    <th scope="col" class="bg-dark-subtle"><i class="bi bi-info-circle"></i></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row" class="bg-dark text-white"><b>3</b></th>
-                        <td class="bg-dark text-white"><b><i class="bi bi-arrow-left-circle"></i> Total Inativos</b></td>
-                        <td class="bg-dark text-white"><i class="bi bi-people"></i></td>
-                      </tr>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Marcos Rogerio dos Santos</td>
-                    <td><a href="#"><i class="text-primary bi bi-person-circle"></a></i></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>João Ferreira da Silva Neto</td>
-                    <td><a href="#"><i class="text-primary bi bi-person-circle"></a></i></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Laudemir Vargas Coimbra</td>
-                    <td><a href="#"><i class="text-primary bi bi-person-circle"></a></i></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            <form action="{{route('despesa.menu')}}" method="post">
+            @csrf
+                <div class="form-group text-center col-12">
+                    <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
+                        <h5><label for="nome" class="link-dark link-underline-opacity-0">Nome</label></h5>
+                        <input type="text" class="h6 col-12 col-md-6 rounded p-1 border-light-subtle" name="nome" id="nome" placeholder="Digite o nome da despesa" required>
+                    </div>
+                    <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
+                        <h5><label for="descricao" class="link-dark link-underline-opacity-0">Descrição</label></h5>
+                        <input type="text" class="h6 col-12 col-md-6 rounded p-1 border-light-subtle" name="descricao" id="descricao" placeholder="Digite a descrição da despesa">
+                    </div>
+                    <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
+                        <h5><label for="valordadespesa" class="link-dark link-underline-opacity-0">Valor</label></h5>
+                        <input type="number" class="h6 col-12 col-md-6 rounded p-1 border-light-subtle" name="valordadespesa" id="valordadespesa" placeholder="Digite o valor da despesa">
+                    </div>
+                    <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
+                        <h5><label for="datadadespesa" class="link-dark link-underline-opacity-0">Data</label></h5>
+                        <input type="date" class="h6 rounded p-1     border-light-subtle" name="datadadespesa" id="datadadespesa" value="{{ \Carbon\Carbon::now()->format('Y-m-d') }}">
+                    </div>
+                    <input type="submit" value="Adicionar Despesa" class="h6 ps-1 pe-1 mt-2 pt-0 pb-0 ms-2 btn btn-primary">
+                </div>
+            </form>
             <div class="mt-4">
             </div>
             <div class="text-center col-12 pt-0 fixed-bottom pb-1 bg-white border-top border-bottom border-primary">

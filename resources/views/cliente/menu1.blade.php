@@ -24,48 +24,41 @@
     <div class="container-fluid text-black">
         <div class="row align-items-start justify-content-center mx-auto">
             <div class="text-center col-12 p-1 mt-5">
-                <h1 class="display-3">° Relatórios °</h1>
+                <h1 class="display-3">° Clientes °</h1>
             </div>
             <div class="text-center col-12">
                 <div class="col-12 col-md-6 my-4 d-block mx-auto bg-info-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
-                            <i class="bi bi-calendar2-range fs-1 text-black"></i> Cobranças
+                        <a href="{{route('cliente.criar')}}" class="link-dark link-underline-opacity-0">
+                            <i class="bi bi-person-fill-add fs-1 text-black"></i> Novo
                         </a>
                     </h3>
                 </div>
                 <div class="col-12 col-md-6 my-4 d-block mx-auto bg-warning-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
-                            <i class="bi bi-cart fs-1 text-black"></i> Vendas
+                        <a href="{{ route('cliente.buscar') }}" class="link-dark link-underline-opacity-0">
+                            <i class="bi bi-person-fill-gear fs-1 text-black"></i> Busca
                         </a>
                     </h3>
                 </div>
                 <div class="col-12 col-md-6 my-4 d-block mx-auto bg-success-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
-                            <i class="bi bi-cash-coin fs-1 text-black"></i> Faturamento e Lucro
-                        </a>
-                    </h3>
-                </div>
-                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-danger-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
-                    <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
-                            <i class="bi bi-person-x fs-1 text-black"></i> Inadimplência
+                        <a href="{{ route('cliente.ativos') }}" class="link-dark link-underline-opacity-0">
+                            <i class="bi bi-person-fill-check fs-1 text-black"></i> Ativos
                         </a>
                     </h3>
                 </div>
                 <div class="col-12 col-md-6 my-4 d-block mx-auto bg-secondary-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
-                            <i class="bi bi-coin fs-1 text-black fs-1 text-black"></i> Despesas
+                        <a href="{{ route('cliente.inativos') }}" class="link-dark link-underline-opacity-0">
+                            <i class="bi bi-person-fill-slash fs-1 text-black"></i> Inativos
                         </a>
                     </h3>
                 </div>
-                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-dark-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
+                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-danger-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
-                            <i class="bi bi-bullseye fs-1 text-black"></i> Todos os Relatórios
+                        <a href="{{ route('cliente.inadimplentes') }}" class="link-dark link-underline-opacity-0">
+                            <i class="bi bi-person-fill-x fs-1 text-black"></i> Inadimplentes
                         </a>
                     </h3>
                 </div>

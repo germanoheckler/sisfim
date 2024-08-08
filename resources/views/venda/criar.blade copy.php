@@ -22,13 +22,13 @@
 <div class="mb-4">
 </div>
     <div class="container-fluid text-black">
-        <div class="row align-items-start justify-content-center mx-auto mb-5">
+        <div class="row align-items-start justify-content-center mx-auto">
             <div class="text-center col-12 p-1 mt-5">
-                <h1 class="display-3">° Recebimento °</h1>
+                <h1 class="display-3">° Nova Venda °</h1>
             </div>
-            <form action="{{route('cobranca.recebimento')}}" method="post">
-                @csrf
-                    <div class="form-group text-center col-12">
+            <form action="{{route('venda.menu')}}" method="get">
+            @csrf
+            <div class="form-group text-center col-12">
                         <div class="row align-items-start justify-content-center mx-auto text-center col-12 col-md-6">
                             <table class="table table-striped">
                                 <thead class="thead-dark">
@@ -151,6 +151,91 @@
                               </table>
                             </div>
                     </div>
+                <div class="form-group text-center col-12">
+                    <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
+                        <h5><label for="cliente" class="link-dark link-underline-opacity-0">Cliente</label></h5>
+                        <select class="h6 rounded p-1 border-light-subtle form-group" id="cliente" name="cliente">
+                            <option value="Alan" data-status="alan">Alan de Souza Ferreira</option>
+                            <option value="Joao" data-cidade="joao">João da Silva Chaves</option>
+                            <option value="Marcio" data-cidade="marcio">Marcio dos Santos Pereira</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
+                        <h5><label for="marca" class="link-dark link-underline-opacity-0">Produto Vendido</label></h5>
+                        <div>
+                            <div>
+                                    <select class="h6 rounded p-1 border-light-subtle form-group" id="produto" name="produto">
+                                    <option value="Cadeira" data-status="cadeira">Cadeira</option>
+                                    <option value="Panela" data-cidade="panela">Panela</option>
+                                    <option value="Rede" data-cidade="rede">Rede</option>
+                                    </select>
+                                    <input type="text" class="h6 col-4 col-md-2 rounded p-1 border-light-subtle" name="quantidade" id="quantidade" placeholder="Quantidade">
+                                    <b class="text-success">R$0,00</b>
+                            </div>
+                            <div>
+                                    <select class="h6 rounded p-1 border-light-subtle form-group" id="produto" name="produto">
+                                    <option value="Cadeira" data-status="cadeira">Cadeira</option>
+                                    <option value="Panela" data-cidade="panela">Panela</option>
+                                    <option value="Rede" data-cidade="rede">Rede</option>
+                                    </select>
+                                    <input type="text" class="h6 col-4 col-md-2 rounded p-1 border-light-subtle" name="quantidade" id="quantidade" placeholder="Quantidade">
+                                    <b class="text-success">R$0,00</b>
+                            </div>
+                            <div>
+                                    <select class="h6 rounded p-1 border-light-subtle form-group" id="produto" name="produto">
+                                    <option value="Cadeira" data-status="cadeira">Cadeira</option>
+                                    <option value="Panela" data-cidade="panela">Panela</option>
+                                    <option value="Rede" data-cidade="rede">Rede</option>
+                                    </select>
+                                    <input type="text" class="h6 col-4 col-md-2 rounded p-1 border-light-subtle" name="quantidade" id="quantidade" placeholder="Quantidade">
+                                    <b class="text-success">R$0,00</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
+                        <h5>Total a pagar: <b class="text-success">R$0,00</b></h5>
+                    </div>
+                    <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
+                        <h5>Desconto: <input type="text" class="h6 col-6 col-md-3 rounded p-1 border-light-subtle" name="desconto" id="desconto"  value="0.00"></h5>
+                    </div>
+                    <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
+                        <h5>Forma de Pagamento:
+                            <select class="h6 rounded p-1 border-light-subtle form-group" id="pagamento" name="pagamento">
+                                <option value="Dinheiro" data-status="dinheiro">Dinheiro</option>
+                                <option value="Cartao" data-cidade="cartao">Cartão</option>
+                                <option value="Pix" data-cidade="pix">Pix</option>
+                                </select>
+                        </h5>
+                    </div>
+                    <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
+                        <h5>Quantidade de Parcelas:
+                            <select class="h6 rounded p-1 border-light-subtle form-group" id="pagamento" name="pagamento">
+                                <option value="AVista" data-status="avista">À vista</option>
+                                <option value="1" data-cidade="1">1</option>
+                                <option value="2" data-cidade="2">2</option>
+                                <option value="3" data-cidade="3">3</option>
+                                <option value="4" data-cidade="4">4</option>
+                                <option value="5" data-cidade="5">5</option>
+                                <option value="6" data-cidade="6">6</option>
+                                <option value="7" data-cidade="7">7</option>
+                                <option value="8" data-cidade="8">8</option>
+                                <option value="9" data-cidade="9">9</option>
+                                <option value="10" data-cidade="10">10</option>
+                                <option value="11" data-cidade="11">11</option>
+                                <option value="12" data-cidade="12">12</option>
+                                </select>
+                        </h5>
+                    </div>
+                    <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
+                        <h5>Valor da Parcela: <b class="text-success">R$0,00</b></h5>
+                    </div>
+                    <div class="form-group col-12 col-md-6 my-1 d-block mx-auto m-1">
+                        <h5><label for="date" class="link-dark link-underline-opacity-0">Data da 1ª parcela (ou à vista)</label><br>
+                            <input type="date" class="h6 rounded p-1 border-light-subtle" name="data" id="data" value="{{ \Carbon\Carbon::now()->format('Y-m-d') }}" required>
+                        </h5>
+                    </div>
+                    <input type="submit" value="Cadastrar Nova Venda" class="m-2 btn btn-primary">
+                </div>
             </form>
             <div class="mt-4">
             </div>
