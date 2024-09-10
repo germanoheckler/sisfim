@@ -124,6 +124,16 @@ Route::get('despesas/mensal', 'App\Http\Controllers\DespesaController@mensal')->
 
 Route::get('relatorios', 'App\Http\Controllers\RelatorioController@menu')->name('relatorio.menu');
 
+Route::get('relatorios/cobranca', 'App\Http\Controllers\RelatorioController@cobranca')->name('relatorio.cobranca');
+
+Route::get('relatorios/vendas', 'App\Http\Controllers\RelatorioController@vendas')->name('relatorio.vendas');
+
+Route::get('relatorios/lucro', 'App\Http\Controllers\RelatorioController@lucro')->name('relatorio.lucro');
+
+Route::get('relatorios/inadimplencia', 'App\Http\Controllers\RelatorioController@inadimplencia')->name('relatorio.inadimplencia');
+
+Route::get('relatorios/todos', 'App\Http\Controllers\RelatorioController@todos')->name('relatorio.todos');
+
 
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::view('home', 'home')->name('home');

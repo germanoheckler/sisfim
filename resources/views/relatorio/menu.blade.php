@@ -29,42 +29,35 @@
             <div class="text-center col-12">
                 <div class="col-12 col-md-6 my-4 d-block mx-auto bg-info-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
+                        <a href="{{ route('relatorio.cobranca')}}" class="link-dark link-underline-opacity-0">
                             <i class="bi bi-calendar2-range fs-1 text-black"></i> Cobranças
                         </a>
                     </h3>
                 </div>
                 <div class="col-12 col-md-6 my-4 d-block mx-auto bg-warning-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
+                        <a href="{{ route('relatorio.vendas')}}" class="link-dark link-underline-opacity-0">
                             <i class="bi bi-cart fs-1 text-black"></i> Vendas
                         </a>
                     </h3>
                 </div>
                 <div class="col-12 col-md-6 my-4 d-block mx-auto bg-success-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
-                            <i class="bi bi-cash-coin fs-1 text-black"></i> Faturamento e Lucro
+                        <a href="{{ route('relatorio.lucro')}}" class="link-dark link-underline-opacity-0">
+                            <i class="bi bi-cash-coin fs-1 text-black"></i> Lucro e Custo
                         </a>
                     </h3>
                 </div>
                 <div class="col-12 col-md-6 my-4 d-block mx-auto bg-danger-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
+                        <a href="{{ route('relatorio.inadimplencia')}}" class="link-dark link-underline-opacity-0">
                             <i class="bi bi-person-x fs-1 text-black"></i> Inadimplência
-                        </a>
-                    </h3>
-                </div>
-                <div class="col-12 col-md-6 my-4 d-block mx-auto bg-secondary-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
-                    <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
-                            <i class="bi bi-coin fs-1 text-black fs-1 text-black"></i> Despesas
                         </a>
                     </h3>
                 </div>
                 <div class="col-12 col-md-6 my-4 d-block mx-auto bg-dark-subtle rounded-4 border border-dark-subtle border-3 shadow-lg m-3 border-top-0 border-start-0">
                     <h3>
-                        <a href="#" class="link-dark link-underline-opacity-0">
+                        <a href="{{ route('relatorio.todos')}}" class="link-dark link-underline-opacity-0">
                             <i class="bi bi-bullseye fs-1 text-black"></i> Todos os Relatórios
                         </a>
                     </h3>
